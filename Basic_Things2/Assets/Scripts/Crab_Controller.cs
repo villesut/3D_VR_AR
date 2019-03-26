@@ -40,5 +40,6 @@ public class Crab_Controller : MonoBehaviour
             gameObject.transform.position = originalPos;
             gameObject.transform.Rotate(new Vector3(0,0,0));
         }*/
+        //jk
     }
 }
