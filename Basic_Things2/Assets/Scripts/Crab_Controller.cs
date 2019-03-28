@@ -6,7 +6,7 @@ public class Crab_Controller : MonoBehaviour
 {
 
 
-    float moveSpeed = 100;
+    float moveSpeed = 60;
     float rotationSpeed = 300;
     public float jumpForce;
     Vector3 originalPos;
