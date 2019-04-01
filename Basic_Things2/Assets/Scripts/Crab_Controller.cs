@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Done by the unity tutorial 
+
 public class Crab_Controller : MonoBehaviour
 {
 
@@ -11,7 +13,7 @@ public class Crab_Controller : MonoBehaviour
     public Text winText;
     float moveSpeed = 60;
     float rotationSpeed = 300;
-    public float jumpForce;
+    float jumpForce = 400;
     Vector3 originalPos;
 
     // Start is called before the first frame update
@@ -20,9 +22,6 @@ public class Crab_Controller : MonoBehaviour
         count = 0;
         SetCountText();
         winText.text = "";
-        
-        //originalPos = new Vector3(gameObject.transform.position.x, 20f, gameObject.transform.position.z);
-       // originalRot = new Vector3(gameObject.transform.rotation.x, gameObject.transform.rotation.y, gameObject.transform.rotation.z);
     }
 
     // Update is called once per frame

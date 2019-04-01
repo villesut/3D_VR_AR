@@ -120,6 +120,7 @@ ModelImporter:
     400112: UpperArm_L
     400114: UpperArm_R_001
     2100000: crab
+    2100002: UV
     4300000: Cube
     7400000: Default Take
     7400002: Idle

@@ -15,7 +15,7 @@ public class CharacterAnimationScript : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         UpdateAnimations();

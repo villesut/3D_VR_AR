@@ -60,7 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\CharacterAnimationScript.cs" />
     <Compile Include="Assets\Scripts\Crab_Controller.cs" />
     <Compile Include="Assets\Scripts\PickUp.cs" />
