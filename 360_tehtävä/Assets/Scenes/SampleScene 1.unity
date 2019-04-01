@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: abc9df333ef933d4e913979bd178fb8f, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 6d8d85c0b6a49cb4294f33919cd5909c, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.42858595, g: 0.45704728, b: 0.5098979, a: 1}
+  m_IndirectSpecularColor: {r: 0.62172043, g: 0.55021656, b: 0.4184388, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -746,8 +746,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0.3160377, g: 0.3667208, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.6933962, b: 0.9550711, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -819,7 +819,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714880414}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -834,7 +834,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -845,7 +845,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Placeholder_
+  m_Text: Rndm picture from Singapore
 --- !u!222 &714880417
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1059,15 +1059,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400022, guid: e68794b8ced0b2e44abe60ff67f1915d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.92
+      value: -6.54
       objectReference: {fileID: 0}
     - target: {fileID: 400022, guid: e68794b8ced0b2e44abe60ff67f1915d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.65
+      value: -6.98
       objectReference: {fileID: 0}
     - target: {fileID: 400022, guid: e68794b8ced0b2e44abe60ff67f1915d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.26
+      value: -2.29
       objectReference: {fileID: 0}
     - target: {fileID: 400022, guid: e68794b8ced0b2e44abe60ff67f1915d, type: 3}
       propertyPath: m_LocalRotation.x
