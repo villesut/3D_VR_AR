@@ -135,6 +135,7 @@ ModelImporter:
     7400020: Dab
     7400022: WalkR11
     7400024: WalkB1
+    7400026: Dab1
     9500000: //RootNode
     13700000: Cube
     2186277476908879412: ImportLogs
@@ -335,8 +336,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Dab
-      takeName: Dab
+      name: Dab1
+      takeName: Dab1
       firstFrame: 0
       lastFrame: 77
       wrapMode: 0
