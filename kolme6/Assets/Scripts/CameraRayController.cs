@@ -8,12 +8,21 @@ public class CameraRayController : MonoBehaviour
 {
 
     public Slider counterSlider;
+    
     public Text infoText;
     public string nextScene;
     float counter = 0;
     public float maxCount;
+   
+    
 
     // Update is called once per frame
+
+    void Start()
+    {
+        
+    }
+
     void Update()
     {
         Vector3 direction = transform.TransformDirection(Vector3.forward);
@@ -26,25 +35,37 @@ public class CameraRayController : MonoBehaviour
             if (hit.collider.CompareTag("InfoHotspot"))
             {
                 infoText.enabled = true;
+               
             }
+           
             else if (hit.collider.CompareTag("SceneHotspot"))
             {
                 counterSlider.gameObject.SetActive(true);
                 counter += Time.deltaTime;
                 counterSlider.value = counter / maxCount;
+               
                 // change scene
                 if (counter > maxCount)
                 {
                     SceneManager.LoadScene(nextScene);
                 }
             }
+        
 
         }
         else
         {
+            
             infoText.enabled = false;
             counterSlider.gameObject.SetActive(false);
+           
             counter = 0;
+           
         }
+
+       
     }
+   
+      
+    
 }

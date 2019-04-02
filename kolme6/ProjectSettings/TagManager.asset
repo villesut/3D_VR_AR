@@ -8,6 +8,7 @@ TagManager:
   - SceneHotspot
   - InfoHotSpot
   - InfoHotspot
+  - Crab
   layers:
   - Default
   - TransparentFX
